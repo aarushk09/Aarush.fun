@@ -42,7 +42,7 @@ p {
 .button {
   background-color: #007BFF;
   color: white;
-  padding: 65px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -52,6 +52,9 @@ p {
   transition: background-color 0.3s ease;
   background-clip: padding-box; /* Clip the background to the padding box */
   border: 4px solid black; /* Double the border size and make it black */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
 }
 
 .button:hover {
@@ -69,7 +72,7 @@ p {
   background-position: center top;
   background-color: #007BFF;
   color: white;
-  padding: 65px;
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -79,7 +82,7 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start; /* Align items to the top */
+  align-items: center; /* Align items to the center */
   text-align: right;
   padding-right: 20px; /* Add right padding to move the text away from the edge */
   border: 4px solid black; /* Double the border size and make it black */
@@ -92,7 +95,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  padding: 65px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -102,7 +105,7 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
 }
 
@@ -113,7 +116,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  padding: 65px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -123,7 +126,7 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
 }
 
@@ -134,7 +137,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  padding: 60px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -144,7 +147,7 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
   background: linear-gradient(to right, #ff7e5f, #feb47b); /* Add gradient background */
 }
@@ -156,7 +159,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  padding: 65px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -166,7 +169,7 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
 }
 
@@ -177,7 +180,7 @@ p {
   background-position: center 50%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  padding: 65px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -187,9 +190,10 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
 }
+
 .button:nth-child(7) {
   background-image: url('tabletennis.png'); /* Add background image for the third button */
   background-size: cover;
@@ -197,7 +201,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  padding: 65px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -207,18 +211,18 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
 }
+
 .button:nth-child(8) {
   background-image: url('tictaktoe.png'); /* Add background image for the third button */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 40%; /* Move the background image down by 20% */
-
   background-color: #007BFF;
   color: white;
-  padding: 60px; /* Increase the padding for taller buttons */
+  height: 70px; /* Set height to 70px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -228,7 +232,7 @@ p {
   transition: background-color 0.3s ease;
   display: flex;
   justify-content: center; /* Center text horizontally */
-  align-items: flex-start; /* Align text to the top */
+  align-items: center; /* Center text vertically */
   border: 4px solid black; /* Double the border size and make it black */
 }
 
