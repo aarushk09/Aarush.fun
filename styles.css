@@ -218,7 +218,7 @@ p {
 
   background-color: #007BFF;
   color: white;
-  padding: 80px; /* Increase the padding for taller buttons */
+  padding: 60px; /* Increase the padding for taller buttons */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
