@@ -5,15 +5,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 175vh;
+  height: 165vh;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
 }
-
-
-
-
 
 .container {
   background-color: white;
@@ -46,7 +42,7 @@ p {
 .button {
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -76,7 +72,7 @@ p {
   background-position: center top;
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -99,7 +95,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -120,7 +116,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -141,7 +137,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -163,7 +159,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -184,7 +180,7 @@ p {
   background-position: center 50%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -205,7 +201,7 @@ p {
   background-position: center 20%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -226,7 +222,7 @@ p {
   background-position: center 40%; /* Move the background image down by 20% */
   background-color: #007BFF;
   color: white;
-  height: 175px; /* Set height to 175px */
+  height: 165px; /* Set height to 165px */
   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
